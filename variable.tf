@@ -1,5 +1,9 @@
-variable"AWS_ACCESS_KEY"{}
-variable"AWS_SECRET_key"{}
-variable"AWS_REGION"{
-    default="us-east-1"
+variable "AWS_ACCESS_KEY" {
+    type = string
+    default = "AKIAUMUNIZJOXDYA7R6V"
 }
+variable "AWS_SECRET_KEY" {
+    type = string
+    default = "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"
+}
+
